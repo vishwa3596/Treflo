@@ -19,8 +19,17 @@ const Homepage = () => {
 			console.log(response);
 			let isVegItems = response.data.filter((e) => e.isVeg === true)
 			let isNonVegItems = response.data.filter((e) => e.isVeg === false);
-			let increasingPrice = sortByKey(response.data, 'price');
+			let increasingPrice = response.data
+			increasingPrice.forEach((e) => e.price = parseInt(e.price));
+			increasingPrice.sort((a, b) => {
+				let first = parseInt(a.price)
+				let second = parseInt(b.price)
+				console.log(first, " ", second)
+				return second-first
+			})
+			//console.log(increasingPrice)
 			let sortByRating = sortByKey(response.data, 'rating')
+			console.log(sortByRating);
 			pizzaStore.dispatch({type: "appendItemToList", payload: response.data});
 			pizzaStore.dispatch({type: "appendToVegList", payload: isVegItems})
 			pizzaStore.dispatch({type: "appendToNonVegItems", payload: isNonVegItems})
