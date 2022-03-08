@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Treflo/static/css/main.c04ffdad.css",
+    "main.js": "/Treflo/static/js/main.b3343b48.js",
+    "static/js/787.d0d9f11b.chunk.js": "/Treflo/static/js/787.d0d9f11b.chunk.js",
+    "static/media/pizza3.jpg": "/Treflo/static/media/pizza3.d7eed836d1d6c8312225.jpg",
+    "static/media/pizza2.jpg": "/Treflo/static/media/pizza2.54a85b3dd91e4a39f951.jpg",
+    "static/media/pizza1.jpg": "/Treflo/static/media/pizza1.5ea0ba7cf50423e516ba.jpg",
+    "static/media/pizza4.jpg": "/Treflo/static/media/pizza4.3d2e811cf8676cdb7ebd.jpg",
+    "static/media/pizza5.jpg": "/Treflo/static/media/pizza5.12138b90b63df2451af5.jpg",
+    "index.html": "/Treflo/index.html",
+    "main.c04ffdad.css.map": "/Treflo/static/css/main.c04ffdad.css.map",
+    "main.b3343b48.js.map": "/Treflo/static/js/main.b3343b48.js.map",
+    "787.d0d9f11b.chunk.js.map": "/Treflo/static/js/787.d0d9f11b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c04ffdad.css",
+    "static/js/main.b3343b48.js"
+  ]
+}
